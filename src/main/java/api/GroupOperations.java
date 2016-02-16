@@ -13,7 +13,7 @@ import java.util.List;
 /**
  * @author sala
  */
-@Url(VKAPI.BASE_URL)
+@Url(VKAPI.BASE_URL + "groups")
 @ImplicitParam(paramName = "v", constValue = VKAPI.VERSION)
 public interface GroupOperations {
 

@@ -24,4 +24,13 @@ public class VKList<TElement> {
     public void setCount(int count) {
         this.count = count;
     }
+
+
+    @Override
+    public String toString() {
+        return "VKList{" +
+                "items=" + items +
+                ", count=" + count +
+                '}';
+    }
 }

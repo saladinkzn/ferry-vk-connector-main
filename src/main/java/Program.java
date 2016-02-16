@@ -30,5 +30,7 @@ public class Program {
 
         final ResponseWrapper<List<Group>> tamrecords_dnb = vkapi.getGroupOperations().groupsGetById("tamrecords_dnb");
         System.out.println(tamrecords_dnb);
+
+        System.out.println(vkapi.getWallOperations().get(1));
     }
 }
